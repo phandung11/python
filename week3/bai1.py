@@ -1,0 +1,20 @@
+s=input()
+i=len(s)-2
+if(len(s)%2==0):
+    while(i>=0):
+        s1+=s[i]
+        i=i-2
+    i=1
+    while(i<len(s)):
+        s1+=s[i]
+        i=i+2
+else:
+    while(i>=1):
+        s1+=s[i]
+        i=i-2
+    i=0
+    while(i<len(s)):
+        s1+=s[i]
+        i=i+2
+print(s1)
+s1=""
